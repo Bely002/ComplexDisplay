@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#functionInput {
+    width: 40%;
+    position: fixed;
+    left: 50px;
+    bottom: 50px;
+    margin: auto;
+    height: 50px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px white;
+    outline: none;
+    overflow: hidden;
+    display: flex;
+    cursor: pointer;
+    & input {
+        border: none;
+        width: 80%;
+        height: 100%;
+        padding-inline: 10px;
+    }
+    & button {
+        width: 20%;
+        border: none;
+        background-color: #282c34;
+        color: white;
+    }
+}
